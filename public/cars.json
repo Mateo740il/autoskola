@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "instructor": { "name": "Ivan Horvat", "categoies": "B,A" },
+        "carImg": "https://www.billplant.co.uk/wp-content/uploads/2022/09/VW-Golf-8-Bill-Plant-Franchise-Car-2-1024x695.jpg"
+    },
+    {
+        "id": 2,
+        "instructor": { "name": "Marko Petrić", "categoies": "B,A" },
+        "carImg": "https://varsitydrivingacademy.com/wp-content/uploads/Varsity-Driving-Academy-Cars-2019.jpeg"
+    },
+    {
+        "id": 3,
+        "instructor": { "name": "Filip Kraljević", "categoies": "B,C,D" },
+        "carImg": "https://images.squarespace-cdn.com/content/v1/5ef9ad201950e30ec633af8f/1616673891227-7GXSO968V979VRR2KV3Y/aa.JPG"
+    },
+    {
+        "id": 4,
+        "instructor": { "name": "Marko Petrić", "categoies": "B,A" },
+        "carImg": "https://autoskola-vrbani.hr/wp-content/uploads/2020/05/DSC_8257.jpg"
+    },
+    {
+        "id": 5,
+        "instructor": { "name": "Ivan Horvat", "categoies": "B,A" },
+        "carImg": "https://autoskola-vrbani.hr/wp-content/uploads/2020/05/DSC_8273-1.jpg"
+    },
+    {
+        "id": 6,
+        "instructor": { "name": "Filip Kraljević", "categoies": "B,C,D" },
+        "carImg": "https://autoskola-car-ri.hr/wp-content/uploads/2019/05/Kamion_cijeli.jpg"
+    },
+    {
+        "id": 7,
+        "instructor": { "name": "Filip Kraljević", "categoies": "B,C,D" },
+        "carImg": "https://i.imgur.com/aKvBqE7.jpg"
+    }
+]

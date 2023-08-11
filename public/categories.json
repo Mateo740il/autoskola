@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category":"A kategorija",
+        "img": "https://autoskola-vrbani.hr/wp-content/uploads/2020/05/DSC_8257.jpg"
+    },
+    {
+        "id": 2,
+        "category":"B kategorija",
+        "img": "https://varsitydrivingacademy.com/wp-content/uploads/Varsity-Driving-Academy-Cars-2019.jpeg"
+    },
+    {
+        "id": 3,
+        "category":"C kategorija",
+        "img": "https://autoskola-car-ri.hr/wp-content/uploads/2019/05/Kamion_cijeli.jpg"
+    },
+    {
+        "id": 4,
+        "category":"D kategorija",
+        "img": "https://i.imgur.com/aKvBqE7.jpg"
+    }
+]

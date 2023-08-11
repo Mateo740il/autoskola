@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+body {
+  color: rgb(24, 24, 24);
+  background-color: rgb(255, 246, 243);
+}
+
+main {
+  max-width: 95%;
+  margin: 50px auto;
+  min-height: 100vh;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: rgb(190, 75, 75);
+  color: white;
+  transition: all 0.3s ease-out;
+}
+.btn:hover {
+  background: rgb(255, 246, 243);
+  color: black;
+  transition: 250ms;
+}
+
+.homeBtn {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(38, 97, 113);
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+}
+.navbar__logo h1 {
+  color: white;
+}
+.navbar__nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.navbar__nav a {
+  color: white;
+}
+
+.mobileMenu {
+  width: 100%;
+  background-color: rgb(38, 97, 113);
+  opacity: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.mobileMenu ul {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.mobileMenu ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.mobileMenu ul a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  width: 80%;
+  max-width: 1400px;
+}
+.home__headline {
+  width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  background-image: url("https://www.autoskola-zadar.hr/wp-content/themes/blankslate-child/img/slides/img-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 15px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+}
+@media only screen and (max-width: 1100px) {
+  .home__headline {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home__headline {
+    align-items: center;
+    min-height: 300px;
+  }
+}
+.home__headline__content {
+  color: white;
+  padding-right: 100px;
+}
+@media only screen and (max-width: 1100px) {
+  .home__headline__content {
+    padding: 0;
+  }
+}
+.home__headline__content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
+@media only screen and (max-width: 576px) {
+  .home__headline__content h1 {
+    font-size: 2rem;
+  }
+}
+.home__headline__content h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 576px) {
+  .home__headline__content h2 {
+    padding: 5px;
+    font-size: 1rem;
+  }
+}
+.home__content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__content__grid {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  .home__content__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .home__content__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.home__content__grid__card {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+@media only screen and (max-width: 1100px) {
+  .home__content__grid__card {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px auto;
+  }
+}
+.home__content__grid__card img {
+  max-width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  border-radius: 7px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+}
+
+.about {
+  width: 70%;
+  margin: 100px auto;
+  max-width: 1200px;
+}
+.about__img {
+  max-width: 100%;
+  border-radius: 15px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+  margin-bottom: 50px;
+}
+.about p {
+  max-width: 1200px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 576px) {
+  .about {
+    width: 90%;
+  }
+}
+
+.signup {
+  width: 80%;
+  margin: 100px auto;
+}
+.signup__form {
+  background-color: rgb(100, 130, 139);
+  color: white;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 40px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+}
+.signup__form input {
+  display: block;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.1));
+  margin: 10px auto;
+}
+
+.carList {
+  width: 85%;
+  max-width: 1200px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media only screen and (max-width: 1100px) {
+  .carList {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .carList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+.carList__card {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.carList__card img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 250px;
+  min-height: 250px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+  transition: all 0.5s ease;
+}
+.carList__card img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(38, 97, 113);
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4));
+}
+.footer p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

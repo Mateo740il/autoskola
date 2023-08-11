@@ -1,0 +1,7 @@
+<template>
+    <main class="about">
+        <img class="about__img" src="../assets/images/about_image.jpg" alt="about image">
+        <h2>About Bura:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo iure qui fugiat quam suscipit quia. Delectus, earum harum! Ipsam iure possimus veritatis corrupti culpa, dolorum odio deleniti, voluptate esse, corporis pariatur illo unde aspernatur eligendi magni voluptas dicta ad! Iure corporis nostrum repellat a ipsam! Dignissimos tempore eveniet veniam ab, veritatis cumque maiores libero quos doloremque quaerat ipsam recusandae, natus blanditiis. Ipsam, minima consectetur. Autem accusamus quo, ratione explicabo magnam vitae aut quae suscipit vero ab, beatae aliquam consequatur? Numquam asperiores nesciunt possimus consequuntur unde ullam beatae, ratione quidem quae sit. Sit, quia veritatis praesentium sed eligendi laborum consectetur, nisi natus dicta iste eaque rerum? Inventore fuga totam repellat sit, sequi maiores ab esse officia sint, odio, quod rerum numquam. Et quia iusto ullam? Fugit consequuntur laudantium aut molestias perferendis laboriosam officiis quo? Dolorum quae rerum ex nam, aut molestias tempora, ducimus ipsam natus beatae odit sapiente officiis velit.</p>
+    </main>
+</template>

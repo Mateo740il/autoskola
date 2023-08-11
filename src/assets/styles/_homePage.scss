@@ -1,0 +1,106 @@
+.home{
+    width: 80%;
+    max-width: 1400px;
+
+    &__headline {
+        width: 100%;
+        min-height: 600px;
+        max-height: 600px;
+        background-image: url("https://www.autoskola-zadar.hr/wp-content/themes/blankslate-child/img/slides/img-02.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        border-radius: 15px;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+        @include responsive(medium){
+            align-items:center;
+        }
+
+        @include responsive(mobile){
+            align-items:center;
+            min-height: 300px;
+        }
+    
+        &__content {
+          color: white;
+          padding-right: 100px;
+
+          @include responsive(medium){
+            padding: 0;
+          }
+    
+          & h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4rem;
+
+            @include responsive(mobile){
+                font-size: 2rem;
+              }
+          }
+    
+          & h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            margin-bottom: 5px;
+
+            @include responsive(mobile){
+                padding: 5px;
+                font-size: 1rem;
+              }
+          }
+        }
+      }
+    
+    &__content{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__grid{
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+
+            @include responsive(medium){
+                grid-template-columns: repeat(2,1fr);
+              }
+
+            @include responsive(mobile){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+
+            &__card{
+                margin: 40px auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                @include responsive(medium){
+                    grid-template-columns: repeat(2,1fr);
+                    margin: 10px auto;
+                  }
+
+                & img{
+                    max-width: 100%;
+                    max-height: 200px;
+                    min-height: 200px;
+                    border-radius: 7px;
+                    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+                }
+            }
+        }
+    }
+}

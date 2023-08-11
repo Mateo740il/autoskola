@@ -1,0 +1,29 @@
+.signup{
+    width: 80%;
+    margin: 100px auto;
+
+    &__form{
+        background-color: $secondary-color;
+        color: $text-color-white;
+        margin: 50px auto;
+        max-width: 600px;
+        padding: 40px 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+        & input{
+            display: block;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            width: 80%;
+            filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.1));
+            margin: 10px auto;
+        }
+    }
+}
